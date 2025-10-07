@@ -1,6 +1,6 @@
 package OOP_Plant;
 //ARV & INTERFACE
-public class Cactus extends Plant implements Sustenance {
+public class Cactus extends Plant {
 
     private static final int cactusDefaultAmount = 2;
 

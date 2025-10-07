@@ -1,6 +1,6 @@
 package OOP_Plant;
 //ARV & INTERFACE
-public class Palm extends Plant implements Sustenance {
+public class Palm extends Plant {
 
     public Palm(String name, double lengthMeter) {
         super(name, lengthMeter, PlantType.PALM);

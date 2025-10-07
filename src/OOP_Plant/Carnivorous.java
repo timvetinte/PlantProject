@@ -1,6 +1,6 @@
 package OOP_Plant;
 //ARV & INTERFACE
-public class Carnivorous extends Plant implements Sustenance {
+public class Carnivorous extends Plant {
 
     public Carnivorous(String name, double lengthMeter) {
         super(name, lengthMeter, PlantType.CARNIVOROUS);
