@@ -2,10 +2,10 @@ package OOP_Plant;
 
 public interface Sustenance {
 
-    double liquidAmount(); //ENCAPSULATION
+    double liquidAmount();
 
-    String getLiquid(); //ENCAPSULATION
+    String getLiquid();
 
-    String getMeasurement(); //ENCAPSULATION
+    String getMeasurement();
 
 }

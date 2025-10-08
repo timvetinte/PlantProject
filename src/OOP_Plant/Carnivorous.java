@@ -7,18 +7,18 @@ public class Carnivorous extends Plant {
     }
 
     @Override
-    public double liquidAmount() { //POLYMORFISM //ENCAPSULATION
+    public double liquidAmount() { //POLYMORFISM
 
         return 0.1 + (0.2 * getLengthMeter());
     }
 
     @Override
-    public String getLiquid() { //INTERFACE POLYMORFISM //ENCAPSULATION
+    public String getLiquid() { // POLYMORFISM
         return getType().getLiquid();
     }
 
     @Override
-    public String getMeasurement() { //INTERFACE POLYMORFISM //ENCAPSULATION
+    public String getMeasurement() { //POLYMORFISM
         return getType().getMeasurement();
     }
 }

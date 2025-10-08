@@ -17,19 +17,19 @@ public abstract class Plant implements Sustenance{
 
     }
 
-    public double getLengthMeter() { //ENCAPSULATION
+    public double getLengthMeter() {
         return lengthMeter;
     }
 
-    public String getName() { //ENCAPSULATION
+    public String getName() {
         return name;
     }
 
-    public PlantType getType() { //ENCAPSULATION
+    public PlantType getType() {
         return type;
     }
 
-    public static ArrayList<Plant> getPlantList() { //ENCAPSULATION
+    public static ArrayList<Plant> getPlantList() {
         return plantList;
     }
 
