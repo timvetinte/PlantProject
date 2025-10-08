@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public abstract class Plant implements Sustenance{
 
-    private double lengthMeter; //ENCAPSULATION PRIVATE
+    private double lengthMeter; //ENCAPSULATION
     private String name;
     private PlantType type;
     private static ArrayList<Plant> plantList = new ArrayList<>();
